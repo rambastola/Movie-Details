@@ -86,5 +86,6 @@ func main() {
 	var text string
 	fmt.Scan(&text)         //read input from standard input
 	imdbID := getData(text) //stores the movieID
-	movieDetails(imdbID)
+	movieDetails(imdbID)    //get movie details
+
 }
